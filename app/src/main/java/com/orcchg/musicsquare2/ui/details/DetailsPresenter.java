@@ -1,4 +1,4 @@
-package com.orcchg.musicsquare2.ui.list;
+package com.orcchg.musicsquare2.ui.details;
 
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 import com.orcchg.musicsquare2.domain.interactor.DefaultSubscriber;
@@ -9,24 +9,24 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-public class ListPresenter extends MvpBasePresenter {
+public class DetailsPresenter extends MvpBasePresenter{
 
-    private final UseCase getMusicianListUseCase;
+    private final UseCase getMusicianDetailsUseCase;
 
     @Inject
-    public ListPresenter(UseCase getMusicianListUseCase) {
-        this.getMusicianListUseCase = getMusicianListUseCase;
+    public DetailsPresenter(UseCase getMusicianDetailsUseCase) {
+        this.getMusicianDetailsUseCase = getMusicianDetailsUseCase;
     }
 
     void resume() {
-        this.getMusicianList();
+        this.getMusicianDetails();
     }
 
-    private void getMusicianList() {
-        this.getMusicianListUseCase.execute(new MusicianListSubscriber());
+    private void getMusicianDetails() {
+        this.getMusicianDetailsUseCase.execute(new MusicianDetailsSubscriber());
     }
 
-    private final class MusicianListSubscriber extends DefaultSubscriber<List<Musician>> {
+    private final class MusicianDetailsSubscriber extends DefaultSubscriber<List<Musician>> {
         @Override
         public void onCompleted() {
             super.onCompleted();
@@ -36,7 +36,7 @@ public class ListPresenter extends MvpBasePresenter {
         @Override
         public void onNext(List<Musician> musicien) {
             super.onNext(musicien);
-            // TODO: show list of musicien
+            // TODO: show details of musician
         }
 
         @Override
