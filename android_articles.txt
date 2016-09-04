@@ -1,3 +1,16 @@
+Advocating
+
+0. https://blog.aritraroy.in/what-my-2-years-of-android-development-have-taught-me-the-hard-way-52b495ba5c51#.npzckkl6a
+
+1. (Gradle): https://medium.com/@cesarmcferreira/speeding-up-gradle-builds-619c442113cb#.gk2xrhnl6
+
+2. (Gradle): http://zeroturnaround.com/rebellabs/making-gradle-builds-faster/
+
+3. (Security): https://www.airpair.com/android/posts/adding-tampering-detection-to-your-android-app
+
+4. (Security): https://rammic.github.io/2015/07/28/hiding-secrets-in-android-apps/
+
+
 Rx
 
 -2. https://medium.com/@kurtisnusbaum/rxandroid-basics-part-1-c0d5edcf6850#.hfq0fkrha
@@ -85,6 +98,8 @@ GITHUB: 0. https://github.com/android10/Android-CleanArchitecture
 
 -----------------------------
 MVP
+
+0. https://github.com/googlesamples/android-architecture
 
 1. http://hannesdorfmann.com/mosby/mvp/
 
