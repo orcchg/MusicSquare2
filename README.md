@@ -114,3 +114,10 @@ MVP
 4. RUS: https://habrahabr.ru/post/276189/
 
 5. http://hannesdorfmann.com/android/adapter-delegates
+
+
+-----------------------------
+Java, Dex
+
+0. Jack and Jil:  http://trickyandroid.com/the-dark-world-of-jack-and-jill/
+1. 
