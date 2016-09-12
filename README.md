@@ -60,6 +60,8 @@ Dagger
 
 0.5. https://guides.codepath.com/android/Dependency-Injection-with-Dagger-2
 
+0.6. http://www.vogella.com/tutorials/Dagger/article.html
+
 1. https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2
 
 2. http://www.vogella.com/tutorials/Dagger/article.html
